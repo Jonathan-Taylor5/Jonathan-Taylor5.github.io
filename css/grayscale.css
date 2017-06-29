@@ -264,6 +264,7 @@ a:focus {
   border: 1px solid #42DCA3;
   color: #42DCA3;
   background-color: transparent;
+  margin: 25px 0 0 0;
 }
 .btn-default:hover,
 .btn-default:focus {
@@ -314,4 +315,71 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
+}
+
+#head1 {
+  text-align: center;
+}
+
+#img1 {
+  height: 230px;
+  width: 170px;
+}
+
+#prj1 {
+  margin: 0 0 0 50px;
+}
+
+#prj2 {
+  margin: -230px 0 0 310px;
+}
+
+#mb {
+  height: 100px;
+  width: 100px;
+}
+section#contact {
+  background-position: center;
+  background-repeat: no-repeat;
+}
+section#contact .section-heading {
+  color: white;
+}
+section#contact .form-group {
+  margin-bottom: 25px;
+}
+section#contact .form-group input,
+section#contact .form-group textarea {
+  padding: 20px;
+}
+section#contact .form-group input.form-control {
+  height: auto;
+}
+section#contact .form-group textarea.form-control {
+  height: 236px;
+}
+section#contact .form-control:focus {
+  border-color: #fed136;
+  box-shadow: none;
+}
+section#contact ::-webkit-input-placeholder {
+  font-weight: 700;
+  color: #eeeeee;
+}
+section#contact :-moz-placeholder {
+  /* Firefox 18- */
+  font-weight: 700;
+  color: #eeeeee;
+}
+section#contact ::-moz-placeholder {
+  /* Firefox 19+ */
+  font-weight: 700;
+  color: #eeeeee;
+}
+section#contact :-ms-input-placeholder {
+  font-weight: 700;
+  color: #eeeeee;
+}
+section#contact .text-danger {
+  color: #e74c3c;
 }

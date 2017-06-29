@@ -1,0 +1,76 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	background: ;
+}
+
+#head {
+	margin: 0 0 0 5px;
+}
+
+#logo {
+	height: 48px;
+	width: 70px;
+	position: relative;
+	left: 141px;
+	bottom: 43px;
+}
+
+#navbar {
+	list-style-type: none;
+	margin: -95px 0px 0px 0px;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgb(112, 112, 112);
+}
+
+#navbar li{
+	float: left;
+	margin: 0 0 0 3px;
+}
+
+#navbar li a {
+	display: inline-block;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	transition: 0.3s;
+	font-size: 17px;
+	color: #0FCD00;
+}
+
+#navbar li a:hover {
+	background-color: rgb(70, 70, 70);
+}
+
+#active{
+	background: rgb(70, 70, 70);
+	margin: 0 0 0 220px;
+}
+
+#tb{
+	margin: 0 0 0 65px;
+}
+
+#sb {
+	margin: 12px 3px 12px 12px;
+}
+
+.slide{
+	height: 300px;
+	width: 400px;
+}
+
+#ls1 {
+	float: left;
+	margin-left: 220px
+}
+
+.Lsi{
+	height: 200px;
+	width: 300px;
+}
+
+#ls2 {
+	float: right;
+	margin-right: 220px;
+}
