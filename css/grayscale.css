@@ -266,6 +266,7 @@ a:focus {
   background-color: transparent;
   margin: 25px 25px 0 0;
 }
+/*use in submit button*/
 .btn-default:hover,
 .btn-default:focus {
   border: 1px solid #42DCA3;
