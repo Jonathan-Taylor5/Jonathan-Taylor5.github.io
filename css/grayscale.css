@@ -8,7 +8,7 @@ body {
   height: 100%;
   font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: white;
-  background-color: black;
+  background-color: rgb(19, 19, 19);
 }
 html {
   width: 100%;
@@ -232,7 +232,7 @@ a:focus {
   width: 100%;
   padding: 50px 0;
   color: white;
-  background-color: black;
+  background-color: rgb(19, 19, 19);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -241,7 +241,7 @@ a:focus {
 
 @media (min-width: 767px) {
   .content-section {
-    padding-top: 250px;
+    padding-top: 100px;
   }
   .download-section {
     padding: 100px 0;
@@ -264,7 +264,7 @@ a:focus {
   border: 1px solid #42DCA3;
   color: #42DCA3;
   background-color: transparent;
-  margin: 25px 0 0 0;
+  margin: 25px 25px 0 0;
 }
 .btn-default:hover,
 .btn-default:focus {
@@ -317,31 +317,35 @@ body {
   webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
 }
 
-#head1 {
-  text-align: center;
-}
-
 #img1 {
   height: 230px;
   width: 170px;
 }
 
-#prj1 {
-  margin: 0 0 0 50px;
+.prj {
+  margin: 60px 0 20px 0;
 }
 
-#prj2 {
-  margin: -290px 0 0 310px;
-}
-
-#button {
-  margin: 270px 0 0 650px;
+.it {
+  margin: 15px 0 15px 0;
 }
 
 #mb {
   height: 100px;
   width: 100px;
 }
+
+#sb{
+  color: #42dca3;
+  height: 60px;
+  width: 130px;
+  font-size: 20px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  background: rgb(19, 19, 19);
+  border: solid 1px #42dca3;
+}
+
 section#contact {
   background-position: center;
   background-repeat: no-repeat;
@@ -367,16 +371,6 @@ section#contact .form-control:focus {
   box-shadow: none;
 }
 section#contact ::-webkit-input-placeholder {
-  font-weight: 700;
-  color: #eeeeee;
-}
-section#contact :-moz-placeholder {
-  /* Firefox 18- */
-  font-weight: 700;
-  color: #eeeeee;
-}
-section#contact ::-moz-placeholder {
-  /* Firefox 19+ */
   font-weight: 700;
   color: #eeeeee;
 }
