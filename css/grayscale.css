@@ -54,7 +54,7 @@ a:focus {
 }
 
 .lineas {
-  color: #fff;
+  color: #42DCA3;
   margin: 300px 0 0 0;
 }
 
@@ -127,7 +127,7 @@ a:focus {
   display: table;
   width: 100%;
   height: auto;
-  padding: 100px 0;
+  padding: 100px 0 0 0;
   text-align: center;
   color: white;
   background: url(../img/code.jpeg) no-repeat bottom center scroll;
@@ -167,7 +167,7 @@ a:focus {
   border: 2px solid white;
   border-radius: 100% !important;
   font-size: 40px;
-  color: white;
+  color: #42DCA3;;
   background: transparent;
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
@@ -246,10 +246,7 @@ a:focus {
   .download-section {
     padding: 100px 0;
   }
-  #map {
-    height: 400px;
-    margin-top: 250px;
-  }
+  
 }
 .btn {
   text-transform: uppercase;
