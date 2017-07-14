@@ -55,7 +55,7 @@ a:focus {
 
 .lineas {
   color: #42DCA3;
-  margin: 300px 0 0 0;
+  margin: 30px 0 0 0;
 }
 
 .navbar-custom {
@@ -224,10 +224,11 @@ a:focus {
   }
 }
 
-
 .content-section {
   padding: 10px;
+
 }
+
 .download-section {
   width: 100%;
   padding: 50px 0;
@@ -241,13 +242,9 @@ a:focus {
 
 @media (min-width: 767px) {
   .content-section {
-    padding-top: 100px;
-  }
-  .download-section {
-    padding: 100px 0;
-  }
-  
+    padding-top: 50px;
 }
+  
 .btn {
   text-transform: uppercase;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -320,8 +317,16 @@ body {
   width: 170px;
 }
 
-.prj {
-  margin: 60px 0 20px 0;
+.pr1 {
+  margin: 40px 0 20px 150px;
+  text-align: left;
+  position: relative;
+}
+
+.pr2 {
+  margin: 40px 150px 20px 0;
+  text-align: right;
+  position: relative;
 }
 
 .it {
@@ -358,7 +363,7 @@ section#contact .section-heading {
   color: white;
 }
 section#contact .form-group {
-  margin-bottom: 25px;
+  margin-bottom: 35px;
 }
 section#contact .form-group input,
 section#contact .form-group textarea {
@@ -394,4 +399,8 @@ section#contact .text-danger {
 
 #nav-text:collapse {
   color: transparent;
+}
+
+#upa {
+
 }
