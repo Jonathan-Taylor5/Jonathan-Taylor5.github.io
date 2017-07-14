@@ -1,31 +1,31 @@
 body {
 	font-family: 'Roboto', sans-serif;
-	background: ;
+	background-color: rgb(112, 112, 112);
 }
 
 #head {
 	margin: 0 0 0 5px;
+	color: #0FCD00;
 }
 
 #logo {
 	height: 48px;
 	width: 70px;
 	position: relative;
-	left: 141px;
+	left: 165px;
 	bottom: 43px;
 }
 
 #navbar {
 	list-style-type: none;
 	margin: -95px 0px 0px 0px;
-	padding: 0;
+	padding-left: 20px;
 	overflow: hidden;
 	background-color: rgb(112, 112, 112);
 }
 
 #navbar li{
 	float: left;
-	margin: 0 0 0 3px;
 }
 
 #navbar li a {
@@ -55,9 +55,10 @@ body {
 	margin: 12px 3px 12px 12px;
 }
 
-.slide{
+.img{
 	height: 300px;
 	width: 400px;
+	align-items: center;
 }
 
 #ls1 {
@@ -74,3 +75,12 @@ body {
 	float: right;
 	margin-right: 220px;
 }
+
+#carousel-example-generic {
+	position: relative;
+    margin: 20px 430px 40px;
+    height: 400px;
+    width: 500px;
+}
+
+
