@@ -1,6 +1,7 @@
 body {
 	font-family: 'Roboto', sans-serif;
 	background-color: rgb(150, 150, 150);
+	background: linear-gradient(to bottom right, rgb(70, 70, 70), rgb(222, 222, 222))
 }
 
 #head {
