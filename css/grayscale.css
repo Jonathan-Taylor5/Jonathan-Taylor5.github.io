@@ -62,7 +62,7 @@ hr {
   margin-bottom: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   text-transform: uppercase;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
   background-color: black;
 }
 .navbar-custom .navbar-toggle {
@@ -247,7 +247,7 @@ hr {
   
 .btn {
   text-transform: uppercase;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -329,9 +329,10 @@ body {
   width: 200px;
   border-radius: 100px;
   border: 2px solid #42dca3;
+  margin-bottom: 20px;
+}
 
-
-.it {
+.PT {
   margin: 15px 0 15px 0;
 }
 
@@ -345,7 +346,7 @@ body {
   height: 60px;
   width: 130px;
   font-size: 20px;
-  font-family: sans-serif;
+  font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
   background: rgb(19, 19, 19);
   border: solid 1px #42dca3;
@@ -403,21 +404,19 @@ section#contact .text-danger {
   color: transparent;
 }
 
-#upa {
-
-}
-
-#ABI {
+.ABI {
   height: 250px;
   width: 250px;
   border: 2px solid #42dca3;
   border-radius: 125px;
+  position: relative;
+  margin-bottom: 0px;
 }
 
-.ABI {
+#abi {
   height: 175px;
   width: 175px;
-  margin-bottom: 15px;
+  margin-bottom: 55px;
   position: relative;
   border: 2px solid #42dca3;
   border-radius: 100px;
