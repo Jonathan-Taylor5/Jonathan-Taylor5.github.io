@@ -379,16 +379,16 @@ section#contact .form-group textarea.form-control {
   height: 236px;
 }
 section#contact .form-control:focus {
-  border-color: #fed136;
+  border-color: #42dca3;
   box-shadow: none;
 }
 section#contact ::-webkit-input-placeholder {
   font-weight: 700;
-  color: #eeeeee;
+  color: #42dca3;
 }
 section#contact :-ms-input-placeholder {
   font-weight: 700;
-  color: #eeeeee;
+  color: #42dca3;
 }
 section#contact .text-danger {
   color: #e74c3c;
