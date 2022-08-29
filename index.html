@@ -1,215 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Jonathan Taylor</title>
+  </head>
+  <body>
+    <div class="wrapper">
 
-<head>
+      <!-- NAVBAR -->
+      <nav class="navbar">
+        <a href="#intro">Introduction</a>
+        <a href="#skills">Skills</a>
+        <a href="#timeline">Timeline</a>
+        <a href="#contact">Contact</a>
+      </nav>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+      <!-- HEADER -->
+      <section class="header">
+        <div class="head-text">Jonathan Taylor</div>
+        <div class="head-subtext">Design and Development</div>
+      </section>
 
-    <title>Jonathan's Portflio</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-
-    <!-- Theme CSS -->
-    <link href="css/grayscale.css" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-</head>
-
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
-                   <span class="light">Jonathan Taylor</span> 
-                   <p id="nav-text">Relentlessly Determined</p>
-                </a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#projects">Projects</a>
-                    </li>
-                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
+      <!-- INTRO -->
+      <section class="intro" id="intro">
+        <div class="head-text">Introduction</div>
+        <div class="head-subtext">Get To Know Me</div>
+        <div class="content">
+          <div class="headshot"></div>
+          <div class="text-section">
+            <ul>
+              <li>Age: 20</li>
+              <li>University: IUPUI</li>
+              <li>Major: Informatics</li>
+                <ul>
+                  <p class="small">Specializing in...</p>
+                  <li class="small">Human-Computer Interactions</li>
                 </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-
-    <!-- Intro Header -->
-    <header class="intro" id="intro">
-        <div class="intro-body">
-            <div class="container">
-                <div class="row">
-                    <div class="">
-                        <h1 class="brand-heading">My portfolio</h1>
-                        <p class="intro-text">
-                            </p>
-                        <a href="#about" class="btn btn-circle page-scroll">
-                            <i class="fa fa-angle-double-down animated"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <!-- About Section -->
-    <section id="about" class="container content-section text-center">
-          <img src="img/Jonathan2.jpg" class="ABI">  
-        <div class="row">
-            <div class="content-section">
-                <h2>About Me</h2>
-                <p>I am a 20 year old IUPUI student who enjoys lots of different things. Things I like include (but aren't limited to) gaming, soccer, animals, and anime. I am intrested in programming because I want to become a video game developer.</p>
-                <img src="img/Nextech.png"  id="abi">
-                <div class="ABT">
-                <h3>Nextech</h3>
-                <p>I took part in the Nextech Catapult program Which runs form June 2017 to April 2018. I was in the six-week summer internship where I learned fundamental coding skills like HTML and CSS as well as other programing languages like JavaScript, jQuerey and Bootstrap.</p>
-                </div>
-
-                  <a href="#projects" class="btn btn-circle page-scroll">
-                            <i class="fa fa-angle-double-down animated"></i>
-                        </a>
-            </div>
-        </div>
-    </section>
-<hr>
-    <!-- about projects -->
-    <section id="projects" class="container content-section text-center">
-   
-        <h2>Projects</h2>
-        <div class="pr1">
-             <a href="https://codepen.io/JTman/pen/RgZQmb"><img src="img/robofox.PNG" class="pri"></a>
-             <h3 class="PT">CSS Creature</h3>
-             <p>A Robot Fox</p>
-        </div>
-        <div class="pr2">
-            <a href="https://jonathan-taylor5.github.io/Website/Index.html"><img src="img/Game_go.PNG" class="pri"></a>
-            <h3 class="PT">Store app</h3>
-            <p>Game Go: A reliable game store </p>
-        </div>
-        <div class="pr1">
-            <a href="http://serene-plains-69792.herokuapp.com/"><img src="img/Friends.PNG" class="pri"></a>
-            <h3 class="PT">Friends list app</h3>
-            <P>Track Your friends (Not Literaly)</P>
-        </div>
-        <div class="pr2">
-            <a href="game/index.html"><img src="img/game.PNG" class="pri"></a>
-            <h3 class="PT">Space Game</h3>
-            <p>Play a Fun platformer</p>
-        </div>
-        <div class="pr1">
-            <a href="https://github.com/Jonathan-Taylor5/Java-Projects"><img src="img/java.jpg" class="pri"></a>
-            <h3 class="PT">Java Projects</h3>
-            <p>Collection of Java projects i've worked on.<br>Requires Eclipse to open</p>
-        </div>
-    
-        <a href="#contact" class="btn btn-circle page-scroll">
-            <i class="fa fa-angle-double-down animated"></i>
-        </a>
-    </section>
-<hr>
-    <!-- Contact Section -->
-    <section id="contact" class="container content-section text-center">
-        <div class="row">
-            <div class="">
-                <h2>Contact Me</h2>
-                <p>Feel free to email me to provide some feedback on my portfolio, give me suggestions for projects and ideas, ask questions, or to just say hello!
-                <p>Phone: (317)-796-8771</p>
-                <form action="https://formspree.io/jonathanmtaylor@sbcglobal.net"
-                method="POST" id="">
-                <!-- <input type="text" name="name" placeholder="Name">
-                <input type="email" name="_replyto" placeholder="E-mail">
-                <input type="text" name="message" placeholder="message" id="mb"> -->
-                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="form-group">
-                                    <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required data-validation-required-message="Please enter your phone number.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="form-group">
-                                    <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                <button id="sb">Submit</button>
-                </form>
-                <ul class="list-inline banner-social-buttons">
-                    <li>
-                        <a href= class="btn btn-default btn-lg"><i class="fa fa- fa-fw"></i> <span class="network-name"></span></a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/Jonathan-Taylor5" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                    </li>
+              <li>Graduating: May 2023</li>
+              </ul>
+            </ul>
+            <div class="text-section-right">
+              <ul>
+                <li>Interest</li>
+                <ul>
+                  <li class="small">Music</li>
+                  <li class="small">Games</li>
+                  <li class="small">Bass Guitar</li>
+                  <li class="small">Aviation</li>
+                  <li class="small">Sports</li>
+                  <li class="small">Cars</li>
                 </ul>
-                <a href="#intro" class="btn btn-circle page-scroll">
-                            <i class="fa fa-angle-double-up animated" id="upa"></i>
-                        </a>
+              </ul>
             </div>
+          </div>  
         </div>
-    </section>
-<hr>
-    
+      </section>
 
-    <!-- Footer -->
-    <footer>
-        <div class="container text-center">
-            <p>Copyright &copy; Jonathan Taylor 2017</p>
+      <!-- Skills -->
+      <section class="skills" id="skills">
+        <div class="head-text">Skills</div>
+        <div class="head-subtext">What I'm Good At</div>
+        <div class="content">
+          <div class="skill-bars">
+            <div class="sec1">
+              <h4>HTML/CSS</h4>
+              <div class="bar-white"><div class="bar-color"></div></div>
+            </div>
+
+            <div class="sec2">
+              <h4>PHP/MySQL</h4>
+              <div class="bar-white"><div class="bar-color"></div></div>
+            </div>
+
+            <div class="sec3">
+              <h4>Photoshop</h4>
+              <div class="bar-white"><div class="bar-color"></div></div>
+            </div>          
+          </div>
+
+          <div class="skill-bars-right">
+            <div class="sec4">
+              <h4>JavaScript</h4>
+              <div class="bar-white"><div class="bar-color"></div></div>
+            </div>
+
+            <div class="sec5">
+              <h4>Adobe XD</h4>
+              <div class="bar-white"><div class="bar-color"></div></div>
+            </div>
+
+            <div class="sec6">
+              <h4>Unity</h4>
+              <div class="bar-white"><div class="bar-color"></div></div>
+            </div>
+          </div>
+
+          <div class="skill-text">
+            <ul>
+            <li>Strengths</li>
+              <ul>
+                <li>Creative</li>
+                <li>Communicator</li>
+                <li>Inventive</li>
+                <li>Time Manager</li>
+                <li>Motivator</li>
+                <li>Collaborator</li>
+                <li>Problem Solver</li>
+              </ul>
+            </ul>
+          </div>
         </div>
-    </footer>
+      </section>
 
-    <!-- jQuery -->
-    <script src="vendor/jquery/jquery.js"></script>
+      <!-- TIMELINE -->
+      <section class="timeline" id="timeline">
+        <div class="head-text">Timeline</div>
+        <div class="head-subtext">How I Got Where I Am</div>
+        <div class="content">
+          <a href="portfolio.html">
+            <div class="item-left">
+              <div class="textbox">
+                <h4>Portfolio Project</h4>
+                <p>This was the final project for my Introduction to Web Development class. That project being... to make this here portfolio!</p>
+              </div>
+              <div class="year">2022</div>
+            </div>
+          </a>
+          <a href="xforce.html">
+            <div class="item-right">
+              <div class="year">2021</div>
+              <div class="textbox">
+                <h4>NSIN X-Force Program</h4>
+                <p>This the internship that I did the summer of 2021. This is where I first used some of my design skills to build an interactive training tool for the US Navy.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </section>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+      <!-- CONTACT -->
+      <section class="contact" id="contact">
+        <div class="head-text">Contact</div>
+        <div class="head-subtext">Get In Contact With Me</div>
+        <div class="content">
+          <form class="contact-form">
+        
+            <input class="name" type="text" name="name" placeholder="Name"/>
+  
+            
+            <input class="email" type="email" name="email" placeholder="E-Mail"/>
+  
+            
+            <textarea class="message" type="text" name="message" placeholder="Message"></textarea>
 
-    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-
-    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
-
-    <!-- Theme JavaScript -->
-    <script src="js/grayscale.min.js"></script>
-
-</body>
-
+            <input class="submit" type="submit" value="Submit" /> 
+        </form>
+        </div>
+      </section>
+    </div>
+  </body>
 </html>
