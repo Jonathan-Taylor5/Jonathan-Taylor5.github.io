@@ -487,8 +487,8 @@ li {
 /** FOR EVENT PAGES ****************************************************************/
 
 .wrapper .event-head {
-  height: 94px;
-  min-width: 1440px;
+  min-height: 94px;
+  width: 1440px;
   margin-top: 110px;
 }
 
@@ -544,7 +544,7 @@ li {
 }
 
 .wrapper .event-timeline .item-left {
-  height: 245px;
+  min-height: 245px;
   width: 640px;
   border: solid 5px #1085bc;
   margin-bottom: 50px;
@@ -563,7 +563,7 @@ li {
 }
 
 .wrapper .event-timeline .item-right {
-  height: 245px;
+  min-height: 245px;
   width: 640px;
   border: solid 5px #1085bc;
   margin-left: 640px;
