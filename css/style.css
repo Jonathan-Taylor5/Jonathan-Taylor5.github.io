@@ -581,3 +581,14 @@ li {
 .wrapper .event-timeline .item-right p {
   font-size: 25px;
 }
+
+/* Final project css */
+
+body {
+  margin: 0px;
+  overflow: hidden;
+}
+
+rect {
+  stroke: black;
+}
