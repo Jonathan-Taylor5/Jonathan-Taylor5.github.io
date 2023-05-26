@@ -122,10 +122,10 @@ ol {
 .wrapper .intro .content .headshot {
   height: 356px;
   width: 398px;
-  background-image: url(../images/Headshot.jpg);
+  background-image: url(../images/Headshot.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
-  /* background-position: center; */
+  background-position: center;
 }
 
 .wrapper .intro .content .text-section {
